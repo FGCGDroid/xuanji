@@ -1,0 +1,15 @@
+{
+  "name": "xuanji-core",
+  "version": "2.0.0",
+  "description": "Chinese metaphysics calculation core: solar terms, lunar calendar, BaZi, LiuYao, MeiHua, ZiWei, Da-LiuRen, QiMen",
+  "main": "core.js",
+  "scripts": {
+    "test": "node test.js",
+    "verify:terms": "node verify-terms.js",
+    "verify:lunar": "node verify-lunar.js",
+    "verify:najia": "node verify-najia.js && node verify-najia2.js && node verify-najia3.js",
+    "verify:classics": "node verify-classics.js"
+  },
+  "license": "MIT",
+  "private": false
+}
